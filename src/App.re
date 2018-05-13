@@ -1,4 +1,4 @@
-/* [%bs.raw {|require('./App.css')|}];
+* [%bs.raw {|require('./App.css')|}];
 
 [@bs.module] external logo : string = "./logo.svg";
 
@@ -18,4 +18,4 @@ let make = (~message, _children) => {
         (ReasonReact.string("and save to reload."))
       </p>
     </div>,
-}; */
+};
